@@ -1,6 +1,10 @@
 # 🕵️‍♂️🔐 SecretScout
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=800&height=80&lines=Stop+secrets+before+they+commit;Scan.+Block.+Commit;Because+oops+is+not+a+security+strategy" alt="SecretScout Slogan">
+</p>
+
+<p align="center">
   <b>Defensive secret scanning for Git repositories</b><br>
   <em>Catch tokens, keys & passwords before they leak into your Git history</em>
 </p>
@@ -17,8 +21,7 @@
   <a href="#-features">Features</a> •
   <a href="#-usage">Usage</a> •
   <a href="#-pre-commit">Pre-commit</a> •
-  <a href="#-ci--sarif">CI/SARIF</a> •
-  <a href="#-configuration">Configuration</a>
+  <a href="#-ci--sarif">CI/SARIF</a>
 </p>
 
 ---
@@ -268,4 +271,3 @@ MIT
   <b>Made for secure development workflows</b><br>
   <sub>SecretScout — because prevention beats remediation.</sub>
 </p>
-```
