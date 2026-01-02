@@ -2,9 +2,9 @@ from __future__ import annotations
 
 import json
 import re
+from collections.abc import Iterable
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from typing import Iterable
 
 from .cache import Cache
 from .config import is_excluded, load_config, load_ignore_file

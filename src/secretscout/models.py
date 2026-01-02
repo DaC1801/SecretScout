@@ -12,10 +12,10 @@ class Severity(str, Enum):
     critical = "critical"
 
     @classmethod
-    def order(cls) -> dict["Severity", int]:
+    def order(cls) -> dict[Severity, int]:
         return {cls.low: 0, cls.medium: 1, cls.high: 2, cls.critical: 3}
 
-    def ge(self, other: "Severity") -> bool:
+    def ge(self, other: Severity) -> bool:
         return self.order()[self] >= self.order()[other]
 
 

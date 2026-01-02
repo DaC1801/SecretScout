@@ -1,4 +1,5 @@
 import json
+
 from secretscout.models import Finding, Severity
 from secretscout.reporting import to_sarif
 

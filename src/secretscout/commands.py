@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import Optional
 
 import typer
 from rich.console import Console
@@ -17,22 +16,25 @@ from .scanner import scan_path
 def to_severity(value: str) -> Severity:
     try:
         return Severity(value.lower())
-    except Exception:
-        raise typer.BadParameter("Severity must be one of: low, medium, high, critical")
+    except Exception as err:
+        raise typer.BadParameter(
+            "Severity must be one of: low, medium, high, critical"
+        ) from err
+
 
 
 def cmd_scan(
     path: Path,
     fmt: Format,
-    output: Optional[Path],
+    output: Path | None,
     fail_on: str,
-    baseline: Optional[Path],
+    baseline: Path | None,
     staged: bool,
     tracked: bool,
     all_files: bool,
     exclude: list[str],
     no_cache: bool,
-    max_findings: Optional[int],
+    max_findings: int | None,
 ) -> int:
     root = path.resolve()
 
@@ -86,7 +88,7 @@ def cmd_init(path: Path) -> int:
     return 0
 
 
-def cmd_stats(path: Path, staged: bool, tracked: bool, all_files: bool, baseline: Optional[Path]) -> int:
+def cmd_stats(path: Path, staged: bool, tracked: bool, all_files: bool, baseline: Path | None) -> int:
     root = path.resolve()
     mode = "tracked"
     if staged:

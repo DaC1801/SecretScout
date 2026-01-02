@@ -8,11 +8,11 @@ def _run_git(args: list[str], cwd: Path) -> subprocess.CompletedProcess:
     return subprocess.run(
         ["git", *args],
         cwd=str(cwd),
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
+        capture_output=True,
         text=False,
         check=False,
     )
+
 
 
 def is_git_repo(root: Path) -> bool:

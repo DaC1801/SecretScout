@@ -3,8 +3,9 @@ from __future__ import annotations
 import html
 import json
 from collections import Counter
+from collections.abc import Iterable
 from datetime import datetime
-from typing import Iterable, Literal
+from typing import Literal
 
 from rich.console import Console
 from rich.table import Table

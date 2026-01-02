@@ -1,4 +1,5 @@
 import re
+
 from secretscout.rules import DEFAULT_RULES
 from secretscout.scanner import scan_bytes
 

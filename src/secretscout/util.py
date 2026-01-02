@@ -3,7 +3,7 @@ from __future__ import annotations
 import hashlib
 import math
 import re
-from typing import Iterable
+from collections.abc import Iterable
 
 
 def shannon_entropy(s: str) -> float:
